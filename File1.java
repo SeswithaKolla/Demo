@@ -3,13 +3,10 @@ import java.util.Arrays;
 public class File1 {
     public static boolean areAnagrams(String s1, String s2)
     {
-        // Sort both strings
         char[] charArray1 = s1.toCharArray();
         char[] charArray2 = s2.toCharArray();
         Arrays.sort(charArray1);
         Arrays.sort(charArray2);
-
-        // Compare sorted strings
         return Arrays.equals(charArray1, charArray2);
     }
 
