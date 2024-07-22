@@ -21,7 +21,6 @@ public class File1 {
         else {
             System.out.println("False");
         }
-
         str1 = "gram";
         str2 = "arm";
 
